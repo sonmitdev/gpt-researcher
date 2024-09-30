@@ -24,7 +24,7 @@ services:
       - ./frontend/nextjs:/app
     restart: always
     ports:
-      - 3000:3000
+      - 3001:3000
 
   gpt-researcher-tests:
     image: gptresearcher/gpt-researcher-tests
